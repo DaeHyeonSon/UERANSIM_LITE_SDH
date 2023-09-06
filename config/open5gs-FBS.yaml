@@ -1,0 +1,14 @@
+mcc: '999'          # Mobile Country Code value
+mnc: '70'           # Mobile Network Code value (2 or 3 digits)
+
+DU_ID: '0x00000000A'  # NR CU Identity (36-bit)
+idLength: 32        # NR gNB ID length in bits [22...32]
+tac: 1              # Tracking Area Code
+
+linkIp: 127.0.0.1   # gNB's local IP address for Radio Link Simulation (Usually same with local IP)
+
+# Initial Position
+position:
+  x: '1250.000000'
+  y: '1350.000000'
+  z: '35.000000'
